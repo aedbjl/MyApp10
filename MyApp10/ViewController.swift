@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             }
             
             
-            print(source)
+           
         }catch{
             print("okoko")
             //處理try的錯誤
