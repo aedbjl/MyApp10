@@ -12,6 +12,7 @@
 		4A40F8B11F02093A00871835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A40F8AF1F02093A00871835 /* Main.storyboard */; };
 		4A40F8B31F02093B00871835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A40F8B21F02093B00871835 /* Assets.xcassets */; };
 		4A40F8B61F02093B00871835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A40F8B41F02093B00871835 /* LaunchScreen.storyboard */; };
+		4A40F8BF1F0229A700871835 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A40F8BE1F0229A700871835 /* user.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4A40F8B21F02093B00871835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A40F8B51F02093B00871835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A40F8B71F02093B00871835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A40F8BE1F0229A700871835 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4A40F8AA1F02093A00871835 /* MyApp10 */ = {
 			isa = PBXGroup;
 			children = (
+				4A40F8BD1F0228F800871835 /* New Group */,
 				4A40F8AB1F02093A00871835 /* AppDelegate.swift */,
 				4A40F8AD1F02093A00871835 /* ViewController.swift */,
 				4A40F8AF1F02093A00871835 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4A40F8B71F02093B00871835 /* Info.plist */,
 			);
 			path = MyApp10;
+			sourceTree = "<group>";
+		};
+		4A40F8BD1F0228F800871835 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4A40F8BE1F0229A700871835 /* user.png */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				4A40F8B61F02093B00871835 /* LaunchScreen.storyboard in Resources */,
 				4A40F8B31F02093B00871835 /* Assets.xcassets in Resources */,
+				4A40F8BF1F0229A700871835 /* user.png in Resources */,
 				4A40F8B11F02093A00871835 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
