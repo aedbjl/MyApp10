@@ -23,6 +23,7 @@ class ViewController: UIViewController {
             //處理try的錯誤
             print(error)
             
+            
         }
 
     }
@@ -130,9 +131,6 @@ class ViewController: UIViewController {
         do {
             let url = URL(string: "http://www.google.com/")
             let source = try String(contentsOf: url! ,encoding: String.Encoding.ascii)
-            
-            
-            
             print(source)
         }catch{
             print("okoko")
